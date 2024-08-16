@@ -1,0 +1,306 @@
+/*custom styles*/
+:global(.row.justify-content-center > div) {
+    padding: 0;
+} 
+/*
+.formCol{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 200px;
+}*/
+
+.appLeftPopupContainer, .create-account-bg{
+  background-color: #1B0036;
+}
+
+
+.formCol::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.formCol::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.formCol::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.formCol::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+
+.loginContainer{
+    max-width: 100% !important;
+}
+
+.loginContainer > div{
+    overflow: hidden;
+    height: 100vh;
+}
+   
+
+.formCol{
+    padding: 20px !important;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #1b0036;
+    width: 100%;
+}
+
+.formCol h4{
+    color: #fff;
+}
+
+.formCol p{
+    color: #fff;
+}
+
+.textDesForm{
+    color: #fff !important;
+}
+
+.numberHidden, .lockedMsgHidden{
+  opacity: 0;
+}
+
+.registerImgContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+.registerImg{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+  .textLogo{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 28px;
+  }
+
+
+  .loginBtn{
+    background-color: #005865;
+    border-color: #005865;
+    border-radius: 40px;
+  }
+
+  .socialIconsContainer .loginBtn{
+    width: 290px !important;
+  }
+
+  .loginBtn:hover{
+    background-color: #43388A;
+    border-color: #43388A;
+  }
+
+  .link{
+    color: #fff !important;
+    font-weight: 600;
+  }
+
+  .loginLogo{
+    max-width: 75px;
+  }
+
+
+  .introText h2{
+    color: #fff;
+    font-size: 32px;
+  }
+
+  .msgBoxesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .msgBox{
+    padding: 8px;
+    display: flex;
+    color: #1b0036;
+    border-radius: 25px 25px 25px 5px;
+    gap: 10px;
+  }
+
+  .textMsg{
+    width: 120px;
+  }
+
+  .textMsg h3, .textMsg p{
+    color: #1b0036;
+  }
+
+  .textMsg h3{
+    font-size: 16px;
+  }
+
+  .msgBox p{
+    margin-bottom: 0;
+  }
+
+  .msgBoxOne{
+    background-color: #acd9cf;
+    transform: rotate(-4deg);
+  }
+
+  .msgBoxTwo{
+    background-color: #ada2b9;
+    transform: rotate(-2deg);
+  }
+
+  .msgBoxThree{
+    background-color: #f7e7ce;
+    transform: rotate(3deg);
+  }
+
+  .lockedMsg{
+    display: flex;
+    justify-content: center;
+    background-color: #005865;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .lockedLogin{
+   
+    width: 20px;
+    height: 20px;
+  }
+
+  .likeMsg{
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+    background-color: #005865;
+    border-radius: 13px;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .likeMsg img{
+    width: 20px;
+    height: 20px;
+  }
+
+  
+  .onlineStatusIcon{
+    width: 20px;
+    height: 20px;
+    background-color: #005865;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 65px;
+  }
+
+  .msgBoxOne .onlineStatusIcon{
+    border-color: #acd9cf;
+  }
+
+  .msgBoxTwo .onlineStatusIcon{
+    border-color: #ada2b9;
+  }
+
+  .msgBoxThree .onlineStatusIcon{
+    border-color: #f7e7ce;
+  }
+
+  .otherMsg{
+    color: #005865;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+
+
+
+
+  .profileImgMsg img{
+    width: 75px;
+    border-radius: 25px 25px 25px 5px;
+  }
+
+  .checkRead{
+    max-width: 20px;
+    align-self: flex-end;
+  }
+
+
+  .socialIconsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+ 
+  .socialIcon{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .socialIconDiscord{
+    background-color: #6f85f1;
+  }
+
+  .arrowIconNext{
+    background-color: #fbfbfb;
+  }
+
+  .socialIconDiscord svg{
+    fill: #fff;
+  }
+
+
+  .socialIcon img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .backBtn{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -45px;
+  }
+
+
+
+  .formContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .formContainer > div{
+    max-width: 550px;
+    width: 550px;
+  }
+
+  .linkRegister{
+    color: #005865 !important;
+  }
+
+  .alertcustom{
+    background-color: #ACD9CF;
+    border-color: #ACD9CF;
+  }
